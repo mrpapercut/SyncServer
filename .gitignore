@@ -1,0 +1,9 @@
+# Files
+!.gitkeep
+TODO
+debug.log
+package-lock.json
+
+# Folders
+node_modules
+dbs/*
