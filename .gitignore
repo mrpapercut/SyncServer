@@ -7,3 +7,5 @@ package-lock.json
 # Folders
 node_modules
 dbs/*
+coverage
+dist

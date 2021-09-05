@@ -1,0 +1,31 @@
+{
+    "name": "@mischa/syncserver",
+    "version": "0.1.0",
+    "description": "",
+    "keywords": [],
+    "homepage": "https://github.com/mrpapercut/syncserver",
+    "author": {
+        "name": "Mischa Rodermond"
+    },
+    "main": "dist/index.js",
+    "dependencies": {
+        "express": "^4.17.1",
+        "sqlite": "^4.0.23",
+        "sqlite3": "^5.0.2",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "@types/jest": "^27.0.1",
+        "@types/sqlite3": "^3.1.7",
+        "@types/uuid": "^8.3.1",
+        "jest": "^27.1.0",
+        "rimraf": "^3.0.2",
+        "ts-jest": "^27.0.5",
+        "typescript": "^4.4.2"
+    },
+    "scripts": {
+        "test": "rimraf ./dbs/testdb.db && jest",
+        "compile": "tsc"
+    }
+}
