@@ -9,8 +9,6 @@ Router.use(async (req, res, next) => {
     await syncServer.init();
 
     await next();
-
-    // await syncServer.close();
 });
 
 Router.get('/all', async (req, res) => {
